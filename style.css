@@ -19,24 +19,24 @@ body {
 }
 
 .parent {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  flex-direction: row;            /*横並び・左から右（デフォルト）*/
+  flex-wrap: no-wrap;      /*折り返しなし・単一行（デフォルト）*/
+  justify-content: flex-start;    /*左（上）揃え*/
+  align-items: flex-start; /*上（左）揃え*/
+  align-content: space-around;  /*均等に間隔をあける・両端にも間隔をあける*/
 }
 
 .child {
-  color: #fff;
-  text-align: center;
-  line-height: 100px;
-  width: 100px;
-  height: 100px;
-  background-color: #777;
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  width: 30%;
+  height: 40%;
+  background-color: #BBBBBB;
   margin: 10px;
 }
