@@ -18,19 +18,10 @@ body {
   margin-left : 30px;
 }
 
-.parent div {
-  display:block;
+.item {
   width: 100%;
-  letter-spacing: -1em; /* 文字間を詰める */
-  white-space: nowrap; /* 自動で折り返ししない */
 }
 
-.inline-block_test div {
-  display: inline-block;        /* インラインブロック要素にする */
-  background-color:  #ccc;      /* 背景色指定 */
-  /*height:  300px;             /* 高さ指定 */
-  width: 50%;                 /* 幅指定 */
-  /*padding: 50px;              /* 余白指定 */
-  letter-spacing: normal; /* 文字間を元に戻す */
-  white-space: normal; /* 自動で折り返し(元に戻す) */
+.items .item {
+  width: 50%;
 }
