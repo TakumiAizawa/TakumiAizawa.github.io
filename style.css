@@ -18,11 +18,8 @@ body {
   margin-left : 30px;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
+div.div_1 {
+  display: inline-block;
 }
-
-main div {
-  width: 30%;
-}
+div.div_2 {
+   display: inline-block;
