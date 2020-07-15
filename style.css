@@ -18,6 +18,10 @@ body {
   margin-left : 30px;
 }
 
+.parent {
+  display: inline-block;
+}
+
 div.div_1 {
   display: inline-block;
 }
