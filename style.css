@@ -18,10 +18,15 @@ body {
   margin-left : 30px;
 }
 
+.parent {
+  display:block;
+  width: 100%;
+}
+
 .inline-block_test {
   display: inline-block;        /* インラインブロック要素にする */
-  background-color:  #ccc;      /* 背景色指定 */
-  height:  300px;             /* 高さ指定 */
+  /*background-color:  #ccc;      /* 背景色指定 */
+  /*height:  300px;             /* 高さ指定 */
   width: 50%;                 /* 幅指定 */
-  padding: 50px;              /* 余白指定 */
+  /*padding: 50px;              /* 余白指定 */
 }
