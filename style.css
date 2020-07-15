@@ -17,3 +17,30 @@ body {
 .mgl-30{
   margin-left : 30px;
 }
+
+.box_1 {
+  display: inline-block;
+　　　　　　vertical-align: middle;
+  color: #FFF;
+  width:100px;
+  height:100px;
+  background-color: red;
+}
+
+.box_2{
+ display: inline-block;
+　　　　vertical-align: middle;
+ color: #FFF;
+ width:100px;
+ height:100px;
+ background-color: blue;
+}
+
+.box_3{
+　　 display: inline-block;
+　　　　vertical-align: middle;
+ color: #FFF;
+ width:100px;
+ height:100px;
+ background-color: green;
+}
