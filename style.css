@@ -18,14 +18,14 @@ body {
   margin-left : 30px;
 }
 
-.parent {
+.parent div {
   display:block;
   width: 100%;
   letter-spacing: -1em; /* 文字間を詰める */
   white-space: nowrap; /* 自動で折り返ししない */
 }
 
-.inline-block_test {
+.inline-block_test div {
   display: inline-block;        /* インラインブロック要素にする */
   /*background-color:  #ccc;      /* 背景色指定 */
   /*height:  300px;             /* 高さ指定 */
