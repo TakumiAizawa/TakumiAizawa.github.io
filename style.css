@@ -18,8 +18,8 @@ body {
   margin-left : 30px;
 }
 
-span.sample2 {
-  font-family: "ＭＳ Ｐ明朝";
+.font1{
+  font-family: fantasy;
 }
 
 .parent {
