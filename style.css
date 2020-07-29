@@ -35,6 +35,16 @@ body {
   align-content: space-around;  /*均等に間隔をあける・両端にも間隔をあける*/
 }
 
+.child1 {
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  width: 15%;
+  height: 40%;
+  background-color: #BBBBBB;
+  margin: 10px;
+}
+
 .child {
   color: black;
   text-align: left;
