@@ -11,11 +11,11 @@ body {
 }
 
 .mgl-20{
-  margin-left : 20px;
+  margin-left : 2%;
   }
 
 .mgl-30{
-  margin-left : 30px;
+  margin-left : 3%;
 }
 
 .font1{
@@ -24,8 +24,8 @@ body {
 
 .font30{
   font-family: 游ゴシック;
-  padding-left: 30px;
-  width: 1820px;
+  padding-left: 9%;
+  width: 99%;
 }
 
 .parent {
