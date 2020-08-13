@@ -1,0 +1,65 @@
+body {
+  background-color: gainsboro;
+  -webkit-text-size-adjust: 100%;
+}
+
+.redtxt {
+  color: red;
+}
+
+.bluetxt {
+  color: blue;
+}
+
+.mgl-20{
+  margin-left : 20px;
+  }
+
+.mgl-30{
+  margin-left : 30px;
+}
+
+.font1{
+  font-family: 游ゴシック;
+}
+
+.font30{
+  font-family: 游ゴシック;
+  padding-left: 30px;
+  width: 1820px;
+}
+
+.parent {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;            /*横並び・左から右（デフォルト）*/
+  flex-wrap: no-wrap;      /*折り返しなし・単一行（デフォルト）*/
+  justify-content: flex-start;    /*左（上）揃え*/
+  align-items: flex-start; /*上（左）揃え*/
+  align-content: space-around;  /*均等に間隔をあける・両端にも間隔をあける*/
+}
+
+.child1 {
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  width: 20%;
+  height: 40%;
+  background-color: #BBBBBB;
+  margin: 10px;
+}
+
+.child {
+  color: black;
+  text-align: left;
+  line-height: 20px;
+  width: 40%;
+  height: 40%;
+  background-color: #BBBBBB;
+  margin: 10px;
+}
+
+
