@@ -11,11 +11,27 @@ body {
 }
 
 .mgl-20{
-  margin-left : 2%;
+  margin-left : 1%;
   }
 
 .mgl-30{
+  margin-left : 1.5%;
+}
+
+.mgl-40{
+  margin-left : 4%;
+}
+
+.mgl-50{
+  margin-left : 6%;
+}
+
+.mgl-60{
   margin-left : 3%;
+}
+
+.mgl-70{
+  margin-left : 5%;
 }
 
 .font1{
@@ -24,8 +40,8 @@ body {
 
 .font30{
   font-family: 游ゴシック;
-  padding-left: 3%;
-  width: 99%;
+  padding-left: 1.5%;
+  width: 95%;
 }
 
 .parent {
@@ -44,21 +60,21 @@ body {
 .child1 {
   color: black;
   text-align: left;
-  line-height: 20px;
+  line-height: 100%;
   width: 20%;
   height: 40%;
   background-color: #BBBBBB;
-  margin: 10px;
+  margin: 0.5%;
 }
 
 .child {
   color: black;
   text-align: left;
-  line-height: 20px;
+  line-height: 100%;
   width: 40%;
   height: 40%;
   background-color: #BBBBBB;
-  margin: 10px;
+  margin: 0.5%;
 }
 
 
