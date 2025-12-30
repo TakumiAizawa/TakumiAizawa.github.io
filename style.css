@@ -1,57 +1,23 @@
-body {background-color: gainsboro;}
+body {background-color: white;}
 
 .redtxt {color: red;}
 .bluetxt {color: blue;}
 
 .mgl-20{margin-left : 1%;}
 .mgl-30{margin-left : 1.5%;}
-.mgl-40{margin-left : 4%;}
+/* .mgl-40{margin-left : 4%;}
 .mgl-50{margin-left : 6%;}
 .mgl-60{margin-left : 3%;}
 .mgl-70{margin-left : 5%;}
-.mgl-80{margin-left : 3%;}
+.mgl-80{margin-left : 3%;} */
 
-.font1{font-family: 游ゴシック;}
-.font2{
-  font-family: 游ゴシック;
+.font1{font-family: Meiryo;}
+/* .font2{
+  font-family: Meiryo;
   margin-top : 2%;}
-.font30{
-  font-family: 游ゴシック;
+.font3{
+  font-family: Meiryo;
   padding-left: 1.5%;
   width: 95%;
-}
-
-.parent {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: row;            /*横並び・左から右（デフォルト）*/
-  flex-wrap: no-wrap;      /*折り返しなし・単一行（デフォルト）*/
-  justify-content: flex-start;    /*左（上）揃え*/
-  align-items: flex-start; /*上（左）揃え*/
-  align-content: space-around;  /*均等に間隔をあける・両端にも間隔をあける*/
-}
-
-.child1 {
-  color: black;
-  text-align: left;
-  line-height: 100%;
-  width: 20%;
-  height: 40%;
-  background-color: #BBBBBB;
-  margin: 0.5%;
-}
-
-.child {
-  color: black;
-  text-align: left;
-  line-height: 100%;
-  width: 40%;
-  height: 40%;
-  background-color: #BBBBBB;
-  margin: 0.5%;
-}
-
+} */
 
